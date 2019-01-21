@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
-*, *::before, *::after {
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -8,15 +10,13 @@ html {
 }
 
 body {
-  margin: 0;
-  padding: 0;
+  padding: 30px;
 }
 
 .container {
-  max-width: 80vw;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   grid-gap: 1%;
   margin: 0 auto;
 }
@@ -37,6 +37,7 @@ div.row.header {
 }
 div.row.header {
   color: #EAEAEA;
+  opacity: 0.8;
 }
 div.row.header:hover {
   color: #07D8D6;
@@ -45,18 +46,21 @@ div.row.header:hover {
 .header-right {
   background: #EAEAEA;
   grid-column: span 2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 100%;
+  position: relative;
 }
 .header-right div {
   font-size: 8.5rem;
   color: #252A34;
-  font-family: Monaco;
+  font-family: "Lato", sans-serif;
   display: flex;
   max-width: 90%;
   padding: 0 2%;
+  font-weight: 400;
+  letter-spacing: 20px;
+  position: absolute;
+  top: 45%;
+  left: 52%;
+  transform: translate(-50%, -50%);
 }
 
 .section {
