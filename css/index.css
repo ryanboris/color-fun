@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700');
 * {
   margin: 0;
   padding: 0;
@@ -27,7 +27,7 @@ body {
 }
 
 div.row.header {
-  background: #252A34;
+  background: #252a34;
   grid-column: span 1;
   display: flex;
   flex-flow: row nowrap;
@@ -36,22 +36,21 @@ div.row.header {
   z-index: 2;
 }
 div.row.header {
-  color: #EAEAEA;
-  opacity: 0.8;
+  color: #eaeaea;
 }
 div.row.header:hover {
-  color: #07D8D6;
+  color: #07d8d6;
 }
 
 .header-right {
-  background: #EAEAEA;
+  background: #eaeaea;
   grid-column: span 2;
   position: relative;
 }
 .header-right div {
   font-size: 8.5rem;
-  color: #252A34;
-  font-family: "Lato", sans-serif;
+  color: #252a34;
+  font-family: 'Lato', sans-serif;
   display: flex;
   max-width: 90%;
   padding: 0 2%;
@@ -72,13 +71,13 @@ div.row.header:hover {
 }
 
 .content-left {
-  background: #07D8D6;
+  background: #07d8d6;
   width: 66%;
   height: inherit;
 }
 
 .content-right {
-  background: #FF2D63;
+  background: #ff2d63;
   width: 34%;
   height: inherit;
   z-index: -1;
@@ -87,13 +86,13 @@ div.row.header:hover {
 .aside {
   grid-column: span 1;
   grid-row: span 1;
-  background: #EAEAEA;
+  background: #eaeaea;
 }
 
 .footer {
   grid-column: span 2;
   grid-row: span 1;
-  background: #252A34;
+  background: #252a34;
 }
 
 /*# sourceMappingURL=index.css.map */
